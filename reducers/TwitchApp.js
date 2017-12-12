@@ -1,5 +1,5 @@
-const initailState = {
-  status: ''
+const initialState = {
+  status: '',
   streams: [],
   error: ''
 }
@@ -27,7 +27,7 @@ function TwitchApp(state=initialState, action){
       return failed
 
     default:
-      state
+      return state
   }
 }
 

@@ -1,4 +1,4 @@
-function FectchSuccess(streams){
+function FetchSuccess(streams){
   const FETCH_SUCCESS = 'FETCH_SUCCESS'
   
   return {
